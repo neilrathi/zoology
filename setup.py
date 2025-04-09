@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 _REQUIRED = [
@@ -46,7 +46,7 @@ setup(
     version="0.0.1",
     description="",
     author="simran sabri",
-    packages=["zoology"],
+    packages=find_packages(),
     install_requires=_REQUIRED,
     extras_require=_OPTIONAL,
     entry_points={
