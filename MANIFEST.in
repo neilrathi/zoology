@@ -1,1 +1,1 @@
-recursive-include zoology *.cpp *.h
+recursive-include zoology *.cpp *.h *.cu
