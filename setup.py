@@ -49,7 +49,9 @@ setup(
     packages=find_packages(),
     install_requires=_REQUIRED,
     extras_require=_OPTIONAL,
+    include_package_data=True,
     entry_points={
         'console_scripts': ['zg=zoology.cli:cli'],
     },
 )
+
