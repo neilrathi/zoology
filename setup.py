@@ -13,8 +13,8 @@ _REQUIRED = [
     "wandb",
 
     # for mamba stuff
-    "mamba_ssm", 
-    "causal_conv1d"
+    # "mamba_ssm", 
+    # "causal_conv1d"
 ]
 
 _OPTIONAL = {
